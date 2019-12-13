@@ -24,3 +24,4 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
+<img src="https://s3-us-west-1.amazonaws.com/project-cloud-snb-8.1/ikbeneenfoto.jpg">
