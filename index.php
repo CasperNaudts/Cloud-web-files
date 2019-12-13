@@ -2,9 +2,9 @@
 echo gethostname();
 echo "<br>";
 $password = "pxlpxlpxl";
-$servername = "testdbtf.cowtdketd1dd.us-east-1.rds.amazonaws.com:3306";
+$servername = "testdbtf.cowtdketd1dd.us-east-1.rds.amazonaws.com";
 $username = "pxl";
-$dbname = "testDB";
+$dbname = "employees";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
