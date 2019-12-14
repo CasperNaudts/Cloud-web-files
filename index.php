@@ -21,7 +21,6 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }
-
+echo "<img src='https://s3-us-west-1.amazonaws.com/project-cloud-snb-8.1/ikbeneenfoto.jpg'>"
 $conn->close();
 ?>
-<img src="https://s3-us-west-1.amazonaws.com/project-cloud-snb-8.1/ikbeneenfoto.jpg">
